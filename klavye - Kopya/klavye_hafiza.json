@@ -1,0 +1,657 @@
+{
+  "name": "Gürel",
+  "favorite_topics": [
+    "python",
+    "oyun",
+    "programlama"
+  ],
+  "notes": [],
+  "snippets": [
+    {
+      "title": "Tkinter Ana Pencere Şablonu",
+      "code": "import tkinter as tk\nroot = tk.Tk()\nroot.mainloop()"
+    },
+    {
+      "title": "Threading Asenkron İstek",
+      "code": "import threading\nthreading.Thread(target=fonksiyon, daemon=True).start()"
+    }
+  ],
+  "favorites": [
+    "Örnek Favori Yanıt: Python, yüksek seviyeli ve nesne yönelimli bir dildir.",
+    "🔍 **'Soruyu araştır'** konusu için kayıtlı yanıt bulunamadı.",
+    "🔍 **'Hi nedemek'** konusunda bilgi bulamadım. Lütfen API anahtarınızı girerek zeki modeli aktif edin."
+  ],
+  "logs": [
+    "Sistem başarıyla başlatıldı ve syntax highlighting aktif.",
+    "[11.10.2026 14:15:46] KlavyeEnterpriseApp v16 başarıyla başlatıldı.",
+    "[11.10.2026 14:16:00] Wikipedia araması başarılı: Eşşek",
+    "[11.10.2026 14:22:26] KlavyeEnterpriseApp v17 başarıyla başlatıldı.",
+    "[11.10.2026 14:22:50] Wikipedia tam cümle araması başarılı: Katastrofizm",
+    "[11.10.2026 14:31:45] KlavyeEnterpriseApp v18 başarıyla başlatıldı.",
+    "[11.10.2026 14:32:30] Akıllı eşleme başarılı: Umut Sarıkaya",
+    "[11.10.2026 15:03:43] KlavyeDeveloperApp v21 başarıyla başlatıldı.",
+    "[11.10.2026 15:24:13] KlavyeDeveloperApp v21 başarıyla başlatıldı.",
+    "[11.10.2026 15:29:31] KlavyeDeveloperApp v21 başarıyla başlatıldı.",
+    "[11.10.2026 16:31:41] KlavyeDeveloperApp v21 başarıyla başlatıldı.",
+    "[11.10.2026 16:31:47] Doğal sohbet / selamlaşma algılandı.",
+    "[11.10.2026 16:31:56] Doğal sohbet / selamlaşma algılandı.",
+    "[11.10.2026 16:32:15] Araştırma başarılı: Romelu Lukaku",
+    "[11.10.2026 16:34:08] Eşleşme bulunamadı: cristiano ronaldomu lionel messimi",
+    "[11.10.2026 16:34:40] Araştırma başarılı: Jong Tae-se",
+    "[11.10.2026 16:53:24] KlavyeBugfixedApp v24 başarıyla başlatıldı.",
+    "[11.10.2026 17:04:37] KlavyeTrustedApp v25 başarıyla başlatıldı.",
+    "[11.10.2026 17:04:50] Güvenilir kaynak taraması başarılı: Ta'anit",
+    "[11.10.2026 17:14:08] KlavyeEnterpriseApp v28 başarıyla başlatıldı.",
+    "[11.10.2026 17:17:29] KlavyeMasterApp v29 başarıyla başlatıldı.",
+    "[11.10.2026 17:21:52] KlavyeUltimateApp v30 başarıyla başlatıldı.",
+    "[11.10.2026 17:42:46] KlavyeNextGenApp v31 başarıyla başlatıldı.",
+    "[11.10.2026 17:49:41] KlavyeSupremeApp v32 başarıyla başlatıldı.",
+    "[11.10.2026 18:12:01] KlavyeCrossPlatformApp v33 (Full Complete) başarıyla başlatıldı.",
+    "[11.10.2026 19:17:11] KlavyeCrossPlatformApp v33 (Full Complete) başarıyla başlatıldı.",
+    "[11.10.2026 19:23:20] KlavyeCrossPlatformApp v33 (Full Complete) başarıyla başlatıldı.",
+    "[11.10.2026 19:40:21] KlavyeCrossPlatformApp v33 (Full Complete) başarıyla başlatıldı.",
+    "[11.10.2026 19:46:58] KlavyeCrossPlatformApp v33 (Full Complete) başarıyla başlatıldı.",
+    "[11.10.2026 19:58:41] KlavyeCrossPlatformApp v33 (Full Complete) başarıyla başlatıldı.",
+    "[13.10.2026 15:53:18] KlavyeCrossPlatformApp v33 (Full Complete) başarıyla başlatıldı.",
+    "[13.10.2026 15:55:11] KlavyeCrossPlatformApp v33 (Full Complete) başarıyla başlatıldı.",
+    "[13.10.2026 15:57:50] KlavyeCrossPlatformApp v33.1 başarıyla başlatıldı.",
+    "[13.10.2026 16:05:50] KlavyeCrossPlatformApp v33.2 başarıyla başlatıldı.",
+    "[13.10.2026 16:13:08] KlavyeCrossPlatformApp v33.3 başarıyla başlatıldı.",
+    "[13.10.2026 16:25:43] KlavyeCrossPlatformApp v33.5 başarıyla başlatıldı.",
+    "[13.10.2026 16:35:39] KlavyeCrossPlatformApp v33.6 başarıyla başlatıldı.",
+    "[13.10.2026 16:36:17] KlavyeCrossPlatformApp v33.6 başarıyla başlatıldı.",
+    "[13.10.2026 16:51:39] KlavyeCrossPlatformApp v33.6 (Bağlam Korumalı) başarıyla başlatıldı.",
+    "[13.10.2026 17:37:41] KlavyeCrossPlatformApp v35.0 (Tam Entegre) başlatıldı.",
+    "[14.10.2026 21:27:49] KlavyeCrossPlatformApp v35.0 (Tam Entegre) başlatıldı.",
+    "[14.10.2026 21:29:48] KlavyeCrossPlatformApp v36.0 Master başlatıldı.",
+    "[14.10.2026 21:41:41] KlavyeCrossPlatformApp v34.0 Ultimate başarıyla başlatıldı.",
+    "[14.10.2026 21:49:59] KlavyeCrossPlatformApp v35.0 Smart Persona başarıyla başlatıldı.",
+    "[14.10.2026 21:55:33] KlavyeCrossPlatformApp v36.0 Active Learning başarıyla başlatıldı.",
+    "[14.10.2026 21:57:36] KlavyeCrossPlatformApp v35.0 Smart Persona başarıyla başlatıldı.",
+    "[15.10.2026 13:34:44] KlavyeCrossPlatformApp v37.0 Ultimate Integrated başarıyla başlatıldı.",
+    "[15.10.2026 13:47:14] KlavyeCrossPlatformApp v38.0 Deep Comprehension Ultimate başarıyla başlatıldı.",
+    "[15.10.2026 14:12:39] KlavyeCrossPlatformApp v39.0 Seamless Context başarıyla başlatıldı.",
+    "[15.10.2026 18:10:46] KlavyeCrossPlatformApp v39.0 Seamless Context başarıyla başlatıldı."
+  ],
+  "conversation": [
+    {
+      "role": "user",
+      "content": "tekir kediler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🐾 **Kedilerin Yaşam Süresi ve Ömrü:**\n\n• **Ev Kedileri:** Düzenli veteriner kontrolü ve kaliteli beslenme ile ev kedilerinin ortalama ömrü **12 ila 15 yıl** arasındadır.\n• **Maksimum Yaş:** İyi bakılan birçok kedi **18-20 yıl** yaşayabilir.\n• **Sokak Kedileri:** Zorlu koşullar nedeniyle genellikle **2 ila 5 yıl** yaşarlar."
+    },
+    {
+      "role": "user",
+      "content": "tekir kediler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🐾 **Genel Kedi Yaşam Süresi Bilgileri:**\n\n• **Ev Kedileri:** Kaliteli mama, ev ortamı ve veteriner bakımıyla ortalama **12 ila 15 yıl** yaşarlar (İyi bakımla 18-20 yılı bulabilir).\n• **Sokak Kedileri:** Zorlu koşullar ve kazalar nedeniyle ortalama **2 ila 5 yıl** yaşayabilmektedirler.\n*(Not: Belirli bir kedi türü (Örn: Siyam, İran, British) hakkında sorarsanız doğrudan o türe özel bilgi verebilirim!)*"
+    },
+    {
+      "role": "user",
+      "content": "tekir"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Canlı Web Araştırma Raporu**\n📚 **Konu:** Tekir\n\nTekir, Onikişubat, Kahramanmaraş'ta yerleşim yeri.\n\n✨ *Kaynak: Wikipedia Veritabanı*"
+    },
+    {
+      "role": "user",
+      "content": "golden köpekler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🐕 **Köpeklerin Yaşam Süresi:**\n\n• **Küçük Irk Köpekler:** Genellikle **12 - 16 yıl** yaşar.\n• **Büyük Irk Köpekler:** Genellikle **8 - 12 yıl** yaşar."
+    },
+    {
+      "role": "user",
+      "content": "Tekir kedi kaç yıl yaşar?"
+    },
+    {
+      "role": "assistant",
+      "content": "🐾 **Tekir Kedi Yaşam Süresi ve Özellikleri:**\n\n• Anadolu'nun en yaygın ve doğal kedi deseni olan Tekir kediler, genetik çeşitlilikleri sayesinde oldukça dayanıklıdır.\n• **Ev Ortamında:** Kaliteli beslenme ve düzenli veteriner bakımıyla ortalama **12 ila 15 yıl** (hatta iyi bakımla 18 yıla kadar) yaşayabilirler.\n• **Sokak Ortamında:** Zorlu koşullar ve kazalar nedeniyle sokaktaki tekirlerin ömrü daha kısa olabilmektedir."
+    },
+    {
+      "role": "user",
+      "content": "golden köpekler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🐕 **Köpeklerin Yaşam Süresi:**\n\n• **Küçük Irk Köpekler:** Genellikle **12 - 16 yıl** yaşar.\n• **Orta ve Büyük Irk Köpekler:** Genellikle **10 - 13 yıl** yaşar.\n• **Dev Irk Köpekler:** Genellikle **8 - 10 yıl** yaşar."
+    },
+    {
+      "role": "user",
+      "content": "arap atı kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Dinamik Web Araştırma Raporu**\n📚 **Bulunan Konu:** Arap atı\n\nArap atları birçok at ırkına kıyasla daha küçüktür, 1,40 ile 1,52 metre arasında bir cidago yüksekliğine sahiptir. İnce ve orta kemikli olanları 360 ile 450 kg ağırlığındadır. Bazı Polonya kökenli Arap atları ise 1,60 metre yüksekliğindedir. Bu atlar farklı fiziksel özelliklere sahip olsalar dahi hepsi çok zariftir.\n\nArap atları yüzyıllardır çöllerde insanlarla yakın ilişki içinde olmuşlardır. Savaşlarda başarılı olan atlar bazen evlerde misafir edilmiştir. Çocuklarla olan iyi ilişkileri nedeniyle 18 yaş altındaki çocukların binmesine izin verilen tek çeşittir.\n\n✨ *Kaynak: Wikipedia Canlı Veritabanı*"
+    },
+    {
+      "role": "user",
+      "content": "eşşekler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Dinamik Web Araştırma Raporu**\n📚 **Bulunan Konu:** Eşşek\n\nEşşek sözcüğü ile şunlardan biri kastedilmiş olabilir:\n\n✨ *Kaynak: Wikipedia Canlı Veritabanı*"
+    },
+    {
+      "role": "user",
+      "content": "dinozorlar kaç yıl önce öldü"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Tam Cümle Web Araştırma Raporu**\n📚 **Bulunan Konu:** Katastrofizm\n\nKatastrofizm veya kıyamet kuramı, paleontoloji'yi büyük oranda geliştiren Fransız anatomist Georges Cuvier (1769-1832) tarafından ileri sürülen ve katmanlar arasındaki her bir sınırın, zaman olarak, sel baskınları ve kuraklık gibi felaketlere karşılık geldiğini ve o dönemde yaşayan türlerin çoğunun ortadan kalkmış olduğunu savunan hipotezdir.\n\n18. yüzyılda endüstrinin gelişmesiyle demir cevherine, kömüre ve bu madenlerin taşınması için gerekli kanallara ve ulaşım yollarına duyulan ihtiyaç arttı. Maden yataklarına ulaşmak için yapılan kazılarda yeryüzünün derinlerine inilmesi, yer bilimde büyük ilerlemelerin gerçekleşmesini sağladı. 19. yüzyılın başlarında Almanya'da Abraham Werner (1750-1817) ve İngiltere'de William Smith (1769-1839) kayaların katman denilen farklı tabakalardan oluştuğunu saptadı.Bu katmanlar, içlerinde bulunan fosillere göre tanımlanan belirli jeolojik dönemlere ve zamanlara aitti. Werner geçmişte bütün dünyayı kaplayan bir dizi sel felaketinin gerçekleştiğini, bunların her biri sonucunda yerkürenin yüzeyine bir kayaç tabakası daha eklendiğini düşünüyordu. Jeolojik zamanları yansıtan katmanlardaki fosillerin büyük değişiklikler göstermesi Werner'in ve başkalarının bu \"felaket kuramları\"nı geliştirmesine yol açtı. Bazı bilginler her sel felaketinin Kutsal Kitap'ta anlatılan yaratılışın bir gününe karşılık geldiğini düşündü,ancak bazıları da kayaçların binlerce yılda oluşmuş olması gerektiğinin farkına vardı. Aralarında Fransız Georges Cuvier'nin de (1769-1832) bulunduğu sonraki \"felaketçiler\",sellerin yanı sıra depremlerin ve iklim değişikliklerinin de etkili olmuş olabileceğini öne sürdüler. Bütün bu kuramları birbirine bağlayan düşünce, yeryüzünün bugünkülerden tamamen farklı, hayal edilemeyecek kadar büyük güçlerin etkisiyle şekillendiğiydi. \"Üniformitaryanizm\" ya da \"birörneklilik kuramı\" olarak bilinen karşıt görüşe göre ise yeryüzü erozyon ve çökelme gibi günlük olaylarla yavaş yavaş bugünkü şeklini almıştı.\n\n✨ *Kaynak: Wikipedia Canlı Veritabanı*"
+    },
+    {
+      "role": "user",
+      "content": "naber"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Akıllı Araştırma Raporu**\n📚 **Konu:** Umut Sarıkaya\n\nUmut Sarıkaya (26 Nisan 1980, Divriği), Türk karikatürist, yazar ve gemi inşaat mühendisi.\n\n26 Nisan 1980 tarihinde Sivas'ın Divriği ilçesinde ilkokul öğretmeni bir baba ve işçi annenin çocuğu olarak doğdu. Bir yaşındayken ailesiyle birlikte Sarıyer'in Çayırbaşı mahallesine taşındı. Lise hayatını ticaret lisesine gitmek istemesine rağmen babasının isteğiyle Yeni Levent Lisesi'nde fen bilimleri üzerine tamamladı. Bu dönemde abisinin okuduğu Leman sayesinde mizah dergileriyle tanışarak dergiyi takip etmeye başladı ve karikatür çizmeye yöneldi. Lisenin ardından 1996 yılında İstanbul Teknik Üniversitesi Gemi İnşaatı ve Deniz Bilimleri Fakültesi'nin gemi inşaat mühendisliği bölümüne girdi. Bu dönemde Ahmet Yılmaz ile Cem Yılmaz'dan etkilenerek çizdiği karikatürler ilk defa Leman'ın amatör çizerler köşesinde yayınlanmışsa da Kaan Ertem'den özgün olmadığı eleştirisini aldı. Lisans eğitimi süresince amatör olarak Leman'ın yanı sıra HBR Maymun, Aksak Kurbağa, Soytarı, Solak ve Atom'da da çizimleri yayınlandı. 2001 yılında Gemi Kökenli Deniz Kirlenmesi başlıklı bitirme teziyle mezun oldu. Mezuniyetinin ardından kısa dönem askerlik ve terhis olmasını takiben dört ay Tuzla'da gemi mühendisliği yaptı.\n\n2002 yılında \"işini sevmesine rağmen sosyal olma zorunluluğu\" nedeniyle mühendisliği bıraktı ve Kemik dergisinde çeşitli köşeler hazırlamaya başladı. Ardından Penguen'de Bülent Üstün'ün isim babası olduğu \"İşimdeyim Gücümdeyim\" adlı karikatür köşesi ve \"Benim de Söyleyeceklerim Var\" başlıklı yazılarıyla ismini duyurdu. Bu dönemde aynı zamanda İstanbul Üniversitesi Deniz Bilimleri ve İşletmeciliği Enstitüsünde yüksek lisans yapmaya devam etti. 2007'de bir grup arkadaşıyla birlikte Penguen'den ayrılarak Uykusuz'u kurdu ve yüksek lisans eğitimini yarıda bıraktı. 2014'ün sonlarına doğru Uykusuz'dan ayrılarak çizmeye ara verdi. 2015'te tek başına hazırladığı Naber adlı üç aylık dergiyi yayınladı. Sarıkaya hâlen bu dergiyi çıkarmaktadır.\n\n✨ *Kaynak: Wikipedia Canlı Veritabanı*"
+    },
+    {
+      "role": "user",
+      "content": "naber"
+    },
+    {
+      "role": "assistant",
+      "content": "Selamlar! Kodlama maratonuna devam mı? Sana nasıl yardımcı olabilirim?"
+    },
+    {
+      "role": "user",
+      "content": "nasılsın"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey Gürel! Her şey yolunda, kodlar stabil bir şekilde çalışıyor. Bugün hangi projeyi geliştiriyoruz?"
+    },
+    {
+      "role": "user",
+      "content": "ronaldomu messimi"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Araştırma Raporu**\n📚 **Konu:** Romelu Lukaku\n\nRomelu Lukaku Bolingoli (d. 13 Mayıs 1993; Anvers), Kongo asıllı Belçikalı millî futbolcudur. Süper Lig ekibi Fenerbahçe'de forma giymektedir.\n\nLukaku üst düzey kulüp kariyerine Anderlecht'te oynayarak başladı ve burada Pro League şampiyonluğu kazandı ve ligi gol kralı olarak tamamladı. 2011'de 10 milyon £ (12 milyon €) değerinde bir transferle Chelsea'ye katıldı, ancak kısıtlı oynama süresi sebebiyle West Bromwich Albion ve Everton'a kiralandı. 2014'te Lukaku, o zamanki kulüp rekoru olan 28 milyon £ (32 milyon €) değerinde bir transferle Everton'la anlaştı ve ligi ikinci en golcü oyuncu olarak bitirdi. Daha sonra 75 milyon sterlin (88 milyon avro) değerinde bir transferle Manchester United ile anlaşan Lukaku, kulüple ilişkilerinin bozulmasının ardından 2019 yılında 80 milyon sterlin (68,1 milyon avro) değerinde kulüp rekoru bir anlaşmayla Inter Milan'a gitti ve bir Serie A şampiyonluğu ve Serie A En Değerli Oyuncu ödülünü kazandı. 2021'de Lukaku, 97,5 milyon sterlin (115 milyon avro) değerinde kulüp rekoru bir transferle Chelsea'ye geri dönerek en pahalı yedinci oyuncu, en pahalı Belçikalı oyuncu ve o dönemde kümülatif transfer ücretlerinde tüm zamanların en pahalı oyuncusu oldu.\n\nBelçika'nın tüm zamanların en çok gol atan oyuncusu olan Lukaku, uluslararası arenadaki ilk maçına 2010 yılında çıktı ve ülkesini beş büyük turnuvada temsil etti: 2016 ve 2020 Avrupa Futbol Şampiyonaları ile 2014, 2018 ve 2022 FIFA Dünya Kupaları. 2018'de Bronz Ayakkabı ödülünü kazanarak en çok gol atan ikinci oyuncu oldu.\n\n✨ *Kaynak: Wikipedia Canlı Veritabanı*"
+    },
+    {
+      "role": "user",
+      "content": "cristiano ronaldomu lionel messimi"
+    },
+    {
+      "role": "assistant",
+      "content": "🔍 **'Cristiano ronaldomu lionel messimi' Konusu Analizi**\n\nSorduğunuz soruyla tam eşleşen bir veri bulunamadı.\n• *Ayarlar & Bulut API* sekmesinden API anahtarınızı ekleyerek tam yapay zeka desteğini aktif edebilirsiniz."
+    },
+    {
+      "role": "user",
+      "content": "sence hangi futbolcu daha iyi"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Araştırma Raporu**\n📚 **Konu:** Jong Tae-se\n\nJong Tae-Se (Japonya'da Chong Tese, Güney Kore'de Jeong Dae-Se olarak bilinir; Korece: 정대세, Hanja: 鄭大世; d. 2 Mart 1984, Nagoya, Aichi İli), Kuzey Koreli eski futbolcudur. Oyuncuya \"Halkın Rooney'si\" lakabı takılmıştır.\n\nJong, Japonya'nın Nagoya şehrinde Güney Kore vatandaşlığına sahip bir ailenin çocuğu olarak dünyaya geldi. Kendisini Kuzey Koreli olarak tanımlayan annesi, onu Chongryon okuluna gönderdi. Futbolla burada tanışan Jong, yerel bir liseden mezun olduktan sonra Tokyo'daki Kore Üniversitesi'nde eğitim hayatını sürdürdü.\n\nJong, sonraları Güney Kore vatandaşlığından çıkıp Kuzey Kore vatandaşlığına geçti.\n\n✨ *Kaynak: Wikipedia Canlı Veritabanı*"
+    },
+    {
+      "role": "user",
+      "content": "oruç kaç gün tutulur"
+    },
+    {
+      "role": "assistant",
+      "content": "🛡️ **Güvenilir Kaynak Araştırma Raporu**\n📚 **Referans Başlık:** Ta'anit\n\nTaanit, Aşkenazların deyişiyle taanis veya Klasik İbranice'de ta'anith, Yahudilik'te oruç anlamına gelir. Yahudilik'te orucun bir veya birden çok amacı olabilir. Orucun gerekçeleri arasında şunlar bulunur:\n\nYalvarış; örneğin Ester Orucu veya Ta'anit Halom (rahatsızlık veren rüyalar)\n\n== Yahudilik'te oruç günleri ==\n\n✅ *Kaynak Doğrulandı: Ansiklopedik Veritabanı ve Akademik Süzgeç*"
+    },
+    {
+      "role": "user",
+      "content": "islam dinin göre oruç kangündür"
+    },
+    {
+      "role": "assistant",
+      "content": "🔍 **'Islam dinin göre oruç kangündür'** için kayıtlı veri bulunamadı. Öğrenme merkezinden ekleyebilirsiniz!"
+    },
+    {
+      "role": "user",
+      "content": "hi ne demek"
+    },
+    {
+      "role": "assistant",
+      "content": "🛡️ **Araştırma Raporu**\n📚 **Başlık:** MiniDisc\n\nMiniDisc (kısaca MD), genelde ses için kullanılan, dijital veri depolama ortamıdır. Sony tarafından geliştirilmiştir. 1992 yılında, Philips ve Matsushita tarafından geliştirilen DCC ile beraber piyasaya çıkmıştır. Bu rekabet 1996 yılında DDC'nin piyasadan kalkmasıyla son bulmuştur.\n\nMD'nin başka bir versiyonu olan MD Data 1993 yılında duyurulmuştur, fakat piyasaya çıkmamıştır. Bugün MD sadece ses depolama için kullanılmaktadır. MD, Avrupa ve Amerika'da istediği başarıyı yakalayamamıştır. Az sayıda MD albüm Sony tarafından basılmıştır. MD Japonya'da çok popülerdir.\n\nMD'nin yapısı, 9 cm (3,5\") floppy disketlere çok benzer. 68×72×5mm boyutlarında ve üzerinde okuma/yazma kapağı bulunan bir kartuşun içinde Magneto-Optical disk bulunur."
+    },
+    {
+      "role": "user",
+      "content": "kediler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🔍 **'Kediler kaç yıl yaşar'** konusu için kayıtlı yanıt bulunamadı."
+    },
+    {
+      "role": "user",
+      "content": "köpekler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🔍 **'Köpekler kaç yıl yaşar'** konusu için kayıtlı yanıt bulunamadı."
+    },
+    {
+      "role": "user",
+      "content": "kediler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🔍 **'Kediler kaç yıl yaşar'** konusu için kayıtlı yanıt bulunamadı."
+    },
+    {
+      "role": "user",
+      "content": "selam"
+    },
+    {
+      "role": "assistant",
+      "content": "Selam Gürel! Infinity Cross-Platform v33 aktif. Mobilden ve masaüstünden tam yetkiyle hizmetinizdeyim."
+    },
+    {
+      "role": "user",
+      "content": "kediler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🔍 **'Kediler kaç yıl yaşar'** konusu için kayıtlı yanıt bulunamadı."
+    },
+    {
+      "role": "user",
+      "content": "soruyu araştır"
+    },
+    {
+      "role": "assistant",
+      "content": "🔍 **'Soruyu araştır'** konusu için kayıtlı yanıt bulunamadı."
+    },
+    {
+      "role": "user",
+      "content": "kediler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Wikipedia Araştırma Sonucu (Pars kedisi):**\n\ngözlüsü&quot;) veya İriomote adası yerlileri tarafından da Pingiimayaa (&quot;kaçmış kedi&quot;)olarak bilinir. İriomote kedisi 100 birey civarında bir nüfus ile kritik..."
+    },
+    {
+      "role": "user",
+      "content": "kediler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "🐱 **Evcil Kedilerin Yaşam Süresi:**\n\nEvcil kediler genellikle iyi bir bakım, kaliteli beslenme ve düzenli veteriner kontrolü ile ortalama **12 ila 15 yıl** yaşarlar.\n\n• **Ev İçi Kedileri:** Çoğu ev kedisi güvenli ortamda ve sağlıklı bakımla **15 - 20 yıl** (veya daha uzun) yaşayabilir.\n• **Sokak Kedileri / Dışarıda Yaşayanlar:** Çeşitli dış etkenler (kazalar, hastalıklar, yetersiz beslenme) nedeniyle yaşam süreleri daha kısa olup genellikle **2 - 5 yıl** civarındadır."
+    },
+    {
+      "role": "user",
+      "content": "köpekler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Wikipedia Araştırma Sonucu (Nikaragua):**\n\nyönetimi Francisco Urcuyo&#039;ya devretti ve Miami&#039;ye kaçtı. Francisco Urcuyo da iki gün sonra Guatemala&#039;ya kaçtı. 19 Temmuz 1979&#039;da FSLN Ordusu, başkent Managua&#039;ya..."
+    },
+    {
+      "role": "user",
+      "content": "malazgirt savaşı ne zaman yapılmıştır"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Ansiklopedik Kaynak (Malazgirt Meydan Muharebesi):**\n\nMalazgirt Meydan Muharebesi, 26 Ağustos 1071 tarihinde Büyük Selçuklu İmparatorluğu hükümdarı Alp Arslan ile Bizans İmparatorluğu hükümdarı Romen Diyojen..."
+    },
+    {
+      "role": "user",
+      "content": "malazgirt savaşı ne zaman yapıldı"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Ansiklopedik Kaynak (Malazgirt Meydan Muharebesi):**\n\nMalazgirt Meydan Muharebesi, 26 Ağustos 1071 tarihinde Büyük Selçuklu İmparatorluğu hükümdarı Alp Arslan ile Bizans İmparatorluğu hükümdarı Romen Diyojen..."
+    },
+    {
+      "role": "user",
+      "content": "kimler tarafından yapıldı"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Ansiklopedik Kaynak (Haykıracak Nefesim Kalmasa Bile):**\n\ngösterilmektedir. 2019 - maNga, şarkıyı Fikret Şeneş saygı albümü Kimler Geldi Kimler Geçti&#039;de seslendirdi. 2014 - Ziynet Sali&#039;nin Bugün Adım Leyla albümünde..."
+    },
+    {
+      "role": "user",
+      "content": "malazgirt savaşı ne zaman yapılkdı"
+    },
+    {
+      "role": "assistant",
+      "content": "⚔️ **Malazgirt Savaşı (26 Ağustos 1071):**\n\nBüyük Selçuklu Sultanı **Alparslan** ile Bizans İmparatoru **IV. Romen Diyojen** arasında gerçekleşen savaştır.\n\n• **Önemi:** Türk tarihinin en önemli dönüm noktalarından biridir; Anadolu'nun kapıları Türkler için açılmıştır.\n• **Taktik:** Sultan Alparslan'ın uyguladığı ünlü **Turan (Hilal / Kurt Kapanı) Taktiği** sayesinde Bizans ordusu ağır bir yenilgiye uğratılmıştır."
+    },
+    {
+      "role": "user",
+      "content": "ne zaman yapıldı"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Ansiklopedik Kaynak (Zaman (gazete)):**\n\nZaman&#039;a sahip çıkma çağrısında bulundu. İlerleyen saatlerde Zaman gazetesi ve Cihan Haber Ajansı&#039;nında bünyesinde bulunduğu Feza Gazetecilik A. Ş.&#039;ne..."
+    },
+    {
+      "role": "user",
+      "content": "hi nedemek"
+    },
+    {
+      "role": "assistant",
+      "content": "🔍 **'Hi nedemek'** konusunda bilgi bulamadım. Lütfen API anahtarınızı girerek zeki modeli aktif edin."
+    },
+    {
+      "role": "user",
+      "content": "naber"
+    },
+    {
+      "role": "assistant",
+      "content": "Selam Gürel! Klavye AI v34.0 Ultimate Edition aktif. Nasıl yardımcı olabilirim?"
+    },
+    {
+      "role": "user",
+      "content": "nasılsın"
+    },
+    {
+      "role": "assistant",
+      "content": "Selam Gürel! Klavye AI v34.0 Ultimate Edition aktif. Nasıl yardımcı olabilirim?"
+    },
+    {
+      "role": "user",
+      "content": "selam"
+    },
+    {
+      "role": "assistant",
+      "content": "Selam Gürel! Arka planda her şeyi düzenliyorum. Bugünün hedeflerine ulaşmak için bana ne sormak istersin?"
+    },
+    {
+      "role": "user",
+      "content": "nasılsın"
+    },
+    {
+      "role": "assistant",
+      "content": "İyi akşamlar Gürel! Sistemlerim tam kapasite çalışıyor. Bugün ne üzerine odaklanıyoruz?"
+    },
+    {
+      "role": "user",
+      "content": "sen benim masa üstümü görebiliyonmu"
+    },
+    {
+      "role": "assistant",
+      "content": "Hmm, **'Sen benim masa üstümü görebiliyonmu'** konusunda şu an hafızamda veya web taramamda net bir şey bulamadım. API anahtarını Ayarlar'dan girersen bu konuyu senin için çok daha derinlemesine analiz edebilirim!"
+    },
+    {
+      "role": "user",
+      "content": "Gürel"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Araştırma Sonucu:**\n\nAysel Gürel A Turkish lyricist and actress."
+    },
+    {
+      "role": "user",
+      "content": "selam"
+    },
+    {
+      "role": "assistant",
+      "content": "İyi akşamlar Gürel! Klavye AI v36.0 Aktif Öğrenme moduyla devrede. Bugün bana neler öğreteceksin ya da ne çalışacağız?"
+    },
+    {
+      "role": "user",
+      "content": "Gürel"
+    },
+    {
+      "role": "assistant",
+      "content": "🌐 **Araştırma Sonucu:**\n\nAysel Gürel A Turkish lyricist and actress."
+    },
+    {
+      "role": "user",
+      "content": "naber"
+    },
+    {
+      "role": "assistant",
+      "content": "Selam Gürel! Arka planda her şeyi düzenliyorum. Bugünün hedeflerine ulaşmak için bana ne sormak istersin?"
+    },
+    {
+      "role": "user",
+      "content": "sen benim masa üstüme erişimin varmı"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Ansiklopedik Kaynak (Şükriye Atav):**\n\nÖmer&#039;in Adaleti 1973: Kaderim Kanla Yazıldı 1973: Kaderimiz 1973: Kızın Varmı Derdin Var 1973: Oğlum Osman 1973: Talihsizler 1973: Umut Dünyası 1973:..."
+    },
+    {
+      "role": "user",
+      "content": "selam"
+    },
+    {
+      "role": "assistant",
+      "content": "Selam Gürel! Derin Anlama (NLP) modülüm devrede. Karmaşık bir sorunun mu var?"
+    },
+    {
+      "role": "user",
+      "content": "senin benim masa üatüne erişimin varmı"
+    },
+    {
+      "role": "assistant",
+      "content": "Hmm, bu cümleyi semantik olarak inceledim ancak hafızamda veya genel web ağında **'senin benim masa üatüne erişimin varmı'** niyetini karşılayan kesin bir veri bulamadım.\n\n💡 **Bağlamı sen oluştur:**\n`Öğret: senin benim masa üatüne erişimin varmı = [Cevabın/Anlamın]` yazarak zihnime ekleyebilirsin.\nVeya Ayarlar'dan API bağlayarak NLP algoritmamı buluta taşıyabiliriz!"
+    },
+    {
+      "role": "user",
+      "content": "şöyle yani benim ekranıma ekranımdaki uygulamalara erişiğmin varmı diyorum varsa evet dicksin yoksa hayır "
+    },
+    {
+      "role": "assistant",
+      "content": "Hmm, bu cümleyi semantik olarak inceledim ancak hafızamda veya genel web ağında **'şöyle yani benim ekranıma ekranımdaki uygulamalara erişiğmin varmı diyorum varsa evet dicksin yoksa hayır '** niyetini karşılayan kesin bir veri bulamadım.\n\n💡 **Bağlamı sen oluştur:**\n`Öğret: şöyle yani benim ekranıma ekranımdaki uygulamalara erişiğmin varmı diyorum varsa evet dicksin yoksa hayır  = [Cevabın/Anlamın]` yazarak zihnime ekleyebilirsin.\nVeya Ayarlar'dan API bağlayarak NLP algoritmamı buluta taşıyabiliriz!"
+    },
+    {
+      "role": "user",
+      "content": "selam"
+    },
+    {
+      "role": "assistant",
+      "content": "Tünaydın Gürel! Bütün geçmiş konuşmalarımızı hatırlıyorum, sohbetimize nereden devam edelim?"
+    },
+    {
+      "role": "user",
+      "content": "sen benim masa üstüme erişimin varmı"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Ansiklopedik Kaynak (Şükriye Atav):**\n\nÖmer&#039;in Adaleti 1973: Kaderim Kanla Yazıldı 1973: Kaderimiz 1973: Kızın Varmı Derdin Var 1973: Oğlum Osman 1973: Talihsizler 1973: Umut Dünyası 1973:..."
+    },
+    {
+      "role": "user",
+      "content": "selam"
+    },
+    {
+      "role": "assistant",
+      "content": "Selam Gürel! Zihnim tamamen açık. Bana anlattığın hiçbir şeyi unutmuyorum. 🚀"
+    },
+    {
+      "role": "user",
+      "content": "kediler kaç yıl yaşar"
+    },
+    {
+      "role": "assistant",
+      "content": "📚 **Ansiklopedik Kaynak (Pars kedisi):**\n\ngözlüsü&quot;) veya İriomote adası yerlileri tarafından da Pingiimayaa (&quot;kaçmış kedi&quot;)olarak bilinir. İriomote kedisi 100 birey civarında bir nüfus ile kritik..."
+    }
+  ],
+  "knowledge_base": {},
+  "learned_questions": {},
+  "kanban": {
+    "todo": [
+      "Proje mimarisini planla",
+      "Modülleri test et"
+    ],
+    "doing": [
+      "v29 Master Edition kodlaması"
+    ],
+    "done": [
+      "v28 Enterprise sürümünü tamamla"
+    ]
+  },
+  "journal": [],
+  "passwords": [],
+  "reminders": [],
+  "macros": [
+    {
+      "key": "Alt+Shift+H",
+      "text": "Klavye AI ile hızlı yanıt verilmiştir."
+    }
+  ],
+  "rss_feeds": [
+    "https://news.ycombinator.com/rss"
+  ],
+  "preferences": {
+    "tone": "samimi",
+    "language": "tr",
+    "theme": "dark"
+  },
+  "api_key": "Gürel",
+  "api_provider": "OpenAI",
+  "daily_goals": [],
+  "last_topic": "programlama",
+  "learning_log": [],
+  "feedback": [
+    {
+      "prompt": "Merhaba",
+      "response": "Merhaba Sana! Ben Klavye. Bugün sana nasıl yardımcı olabilirim?",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "23.09.2026 20:52"
+    },
+    {
+      "prompt": "Merhaba",
+      "response": "Merhaba Sana! Ben Klavye. Bugün sana nasıl yardımcı olabilirim?",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "30.09.2026 19:24"
+    },
+    {
+      "prompt": "yardım",
+      "response": "Şunları yapabilirim: sohbet etmek, araştırma yapmak, matematik işlemi çözmek, not tutmak, plan hazırlamak ve kişisel tavsiye vermek.",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "30.09.2026 19:24"
+    },
+    {
+      "prompt": "12+7",
+      "response": "Sonuç: 19",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "30.09.2026 19:25"
+    },
+    {
+      "prompt": "özet ver",
+      "response": "Sana, en çok python konularına ilgi gösteriyorsun; henüz kaydettiğin bir not yok.",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "30.09.2026 19:25"
+    },
+    {
+      "prompt": "naber",
+      "response": "İlginç bir fikir. Bunu daha detaylı inceleyelim.",
+      "rating": -1,
+      "automatic_reward": 1,
+      "time": "30.09.2026 19:25"
+    },
+    {
+      "prompt": "Merhaba",
+      "response": "Merhaba Sana! Ben Klavye. Bugün sana nasıl yardımcı olabilirim?",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "03.10.2026 12:39"
+    },
+    {
+      "prompt": "Merhaba",
+      "response": "Merhaba Sana! Ben Klavye. Bugün sana nasıl yardımcı olabilirim?",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "03.10.2026 12:43"
+    },
+    {
+      "prompt": "yardım",
+      "response": "Şunları yapabilirim: sohbet etmek, araştırma yapmak, matematik işlemi çözmek, not tutmak, plan hazırlamak ve sana özel öneriler sunmak.",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "03.10.2026 12:43"
+    },
+    {
+      "prompt": "12+7",
+      "response": "Sonuç: 19",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "03.10.2026 12:43"
+    },
+    {
+      "prompt": "nasılsın",
+      "response": "İyiyim Sana, teşekkür ederim. Günün nasıl geçiyor? Ben sana yardımcı olmaya hazırım.",
+      "rating": 1,
+      "automatic_reward": 1,
+      "time": "03.10.2026 12:44"
+    },
+    {
+      "prompt": "kangurular kaç yıl yaşar",
+      "response": "Şu anda 'kangurular kaç yıl yaşar' hakkında net bir sonuç bulamadım. Daha spesifik bir soru sorabilir veya konuyu daha kısa yazabilirsin.",
+      "rating": -1,
+      "automatic_reward": -1,
+      "time": "03.10.2026 12:44"
+    },
+    {
+      "prompt": "kangurular kaç yıl yaşar",
+      "response": "Google'da bakmak için: https://www.google.com/search?q=kangurular%20ka%C3%A7%20y%C4%B1l%20ya%C5%9Far&hl=tr&lr=lang_tr",
+      "rating": -1,
+      "automatic_reward": 1,
+      "time": "03.10.2026 12:47"
+    },
+    {
+      "prompt": "kangurular kaç yıl yaşar",
+      "response": "Şu anda 'kangurular kaç yıl yaşar' hakkında net bir sonuç bulamadım. Google'da daha net bakmak için: https://www.google.com/search?q=kangurular%20ka%C3%A7%20y%C4%B1l%20ya%C5%9Far&hl=tr&lr=lang_tr",
+      "rating": -1,
+      "automatic_reward": -1,
+      "time": "03.10.2026 12:48"
+    },
+    {
+      "prompt": "kangurular kaç yıl yaşar",
+      "response": "Şu anda 'kangurular kaç yıl yaşar' hakkında net bir sonuç bulamadım. Ama genel olarak bu konu, ilgili alanın temel yaklaşımını ve kullanımını anlatan bir kavramdır. Google bağlantısı: https://www.google.com/search?q=kangurular%20ka%C3%A7%20y%C4%B1l%20ya%C5%9Far&hl=tr&lr=lang_tr",
+      "rating": 1,
+      "automatic_reward": -1,
+      "time": "03.10.2026 12:51"
+    },
+    {
+      "prompt": "cristiano ronaldo kim",
+      "response": "Şu anda 'cristiano ronaldo kim' hakkında net bir sonuç bulamadım. Ama genel olarak bu konu, ilgili alanın temel yaklaşımını ve kullanımını anlatan bir kavramdır. Google bağlantısı: https://www.google.com/search?q=cristiano%20ronaldo%20kim&hl=tr&lr=lang_tr",
+      "rating": -1,
+      "automatic_reward": -1,
+      "time": "03.10.2026 12:51"
+    },
+    {
+      "prompt": "kangurular kaç yıl yaşar",
+      "response": "Şu anda 'kangurular kaç yıl yaşar' hakkında net bir sonuç bulamadım. Ama genel olarak bu konu, ilgili alanın temel yaklaşımını ve kullanımını anlatan bir kavramdır. Google bağlantısı: https://www.google.com/search?q=kangurular%20ka%C3%A7%20y%C4%B1l%20ya%C5%9Far&hl=tr&lr=lang_tr",
+      "rating": -1,
+      "automatic_reward": -1,
+      "time": "03.10.2026 12:53"
+    },
+    {
+      "prompt": "ronaldo kim",
+      "response": "Şu anda 'ronaldo kim' hakkında net bir sonuç bulamadım. Ama genel olarak bu konu, ilgili alanın temel yaklaşımını ve kullanımını anlatan bir kavramdır. Google bağlantısı: https://www.google.com/search?q=ronaldo%20kim&hl=tr&lr=lang_tr",
+      "rating": -1,
+      "automatic_reward": -1,
+      "time": "03.10.2026 12:55"
+    },
+    {
+      "prompt": "naber",
+      "response": "Bu konu hakkında biraz daha açabilir misin? Ben sana daha net yardımcı olabilirim.",
+      "rating": -1,
+      "automatic_reward": 1,
+      "time": "06.10.2026 22:36"
+    }
+  ],
+  "preference_stats": {
+    "positive": 11,
+    "negative": 8,
+    "reward": 3
+  },
+  "assistant_mode": "aktif",
+  "last_intent": "math",
+  "last_sentiment": "neutral"
+}
